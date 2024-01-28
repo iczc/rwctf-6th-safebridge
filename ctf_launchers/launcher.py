@@ -121,7 +121,7 @@ class Launcher(abc.ABC):
 
         print()
         print(f"your private blockchain has been set up")
-        print(f"it will automatically terminate in {TIMEOUT} minutes")
+        print(f"it will automatically terminate in {TIMEOUT} seconds")
         print(f"---")
         print(f"rpc endpoints:")
         for id in user_data["anvil_instances"]:
